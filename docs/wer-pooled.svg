@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="760" viewBox="0 0 1600 760" role="img" aria-labelledby="title desc">
+<title id="title">A5Sv2 vs Proprietary Cloud ASR — Pooled WER</title><desc id="desc">Pooled WER ranked from lowest to highest for 9 streaming ASR systems.</desc>
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="60" y="65" font-family="Georgia,serif" font-size="38" fill="#151515">A5Sv2 vs Proprietary Cloud ASR — Pooled WER</text>
+<text x="60" y="103" font-family="Arial,sans-serif" font-size="20" fill="#666666">% of words transcribed incorrectly · lower is better · 133,027 reference words</text>
+<line x1="70" x2="1540" y1="595.0" y2="595.0" stroke="#d0d0d0" stroke-dasharray="4 8"/>
+<text x="55" y="602.0" text-anchor="end" font-family="Arial,sans-serif" font-size="17" fill="#777">0</text>
+<line x1="70" x2="1540" y1="540.6" y2="540.6" stroke="#d0d0d0" stroke-dasharray="4 8"/>
+<text x="55" y="547.6" text-anchor="end" font-family="Arial,sans-serif" font-size="17" fill="#777">10</text>
+<line x1="70" x2="1540" y1="486.2" y2="486.2" stroke="#d0d0d0" stroke-dasharray="4 8"/>
+<text x="55" y="493.2" text-anchor="end" font-family="Arial,sans-serif" font-size="17" fill="#777">20</text>
+<line x1="70" x2="1540" y1="431.9" y2="431.9" stroke="#d0d0d0" stroke-dasharray="4 8"/>
+<text x="55" y="438.9" text-anchor="end" font-family="Arial,sans-serif" font-size="17" fill="#777">30</text>
+<line x1="70" x2="1540" y1="377.5" y2="377.5" stroke="#d0d0d0" stroke-dasharray="4 8"/>
+<text x="55" y="384.5" text-anchor="end" font-family="Arial,sans-serif" font-size="17" fill="#777">40</text>
+<line x1="70" x2="1540" y1="323.1" y2="323.1" stroke="#d0d0d0" stroke-dasharray="4 8"/>
+<text x="55" y="330.1" text-anchor="end" font-family="Arial,sans-serif" font-size="17" fill="#777">50</text>
+<line x1="70" x2="1540" y1="268.8" y2="268.8" stroke="#d0d0d0" stroke-dasharray="4 8"/>
+<text x="55" y="275.8" text-anchor="end" font-family="Arial,sans-serif" font-size="17" fill="#777">60</text>
+<line x1="70" x2="1540" y1="214.4" y2="214.4" stroke="#d0d0d0" stroke-dasharray="4 8"/>
+<text x="55" y="221.4" text-anchor="end" font-family="Arial,sans-serif" font-size="17" fill="#777">70</text>
+<line x1="70" x2="1540" y1="160.0" y2="160.0" stroke="#d0d0d0" stroke-dasharray="4 8"/>
+<text x="55" y="167.0" text-anchor="end" font-family="Arial,sans-serif" font-size="17" fill="#777">80</text>
+<rect x="104.3" y="451.8" width="94.7" height="143.2" rx="8" fill="#1b9e77"/>
+<text x="151.7" y="439.8" text-anchor="middle" font-family="Arial,sans-serif" font-size="21" font-weight="700" fill="#111">26.3%</text>
+<text x="151.7" y="645" text-anchor="middle" font-family="Arial,sans-serif" font-size="17" fill="#222">A5Sv2</text>
+<rect x="267.6" y="449.9" width="94.7" height="145.1" rx="8" fill="#2d6cdf"/>
+<text x="315.0" y="437.9" text-anchor="middle" font-family="Arial,sans-serif" font-size="21" font-weight="700" fill="#111">26.7%</text>
+<text x="315.0" y="645" text-anchor="middle" font-family="Arial,sans-serif" font-size="17" fill="#222">ElevenLabs Scribe v2</text>
+<text x="315.0" y="669" text-anchor="middle" font-family="Arial,sans-serif" font-size="17" fill="#222">Realtime</text>
+<rect x="431.0" y="431.4" width="94.7" height="163.6" rx="8" fill="#7a4ea3"/>
+<text x="478.3" y="419.4" text-anchor="middle" font-family="Arial,sans-serif" font-size="21" font-weight="700" fill="#111">30.1%</text>
+<text x="478.3" y="645" text-anchor="middle" font-family="Arial,sans-serif" font-size="17" fill="#222">Meta Muse</text>
+<text x="478.3" y="669" text-anchor="middle" font-family="Arial,sans-serif" font-size="17" fill="#222">Transcribe</text>
+<rect x="594.3" y="428.9" width="94.7" height="166.1" rx="8" fill="#e66101"/>
+<text x="641.7" y="416.9" text-anchor="middle" font-family="Arial,sans-serif" font-size="21" font-weight="700" fill="#111">30.5%</text>
+<text x="641.7" y="645" text-anchor="middle" font-family="Arial,sans-serif" font-size="17" fill="#222">AssemblyAI</text>
+<text x="641.7" y="669" text-anchor="middle" font-family="Arial,sans-serif" font-size="17" fill="#222">Universal-3.5 Pro Realtime</text>
+<rect x="757.6" y="406.2" width="94.7" height="188.8" rx="8" fill="#1f4e79"/>
+<text x="805.0" y="394.2" text-anchor="middle" font-family="Arial,sans-serif" font-size="21" font-weight="700" fill="#111">34.7%</text>
+<text x="805.0" y="645" text-anchor="middle" font-family="Arial,sans-serif" font-size="17" fill="#222">OpenAI GPT Live</text>
+<text x="805.0" y="669" text-anchor="middle" font-family="Arial,sans-serif" font-size="17" fill="#222">Transcribe</text>
+<rect x="921.0" y="366.9" width="94.7" height="228.1" rx="8" fill="#c51b7d"/>
+<text x="968.3" y="354.9" text-anchor="middle" font-family="Arial,sans-serif" font-size="21" font-weight="700" fill="#111">41.9%</text>
+<text x="968.3" y="645" text-anchor="middle" font-family="Arial,sans-serif" font-size="17" fill="#222">xAI Grok</text>
+<text x="968.3" y="669" text-anchor="middle" font-family="Arial,sans-serif" font-size="17" fill="#222">Speech-to-Text Streaming</text>
+<rect x="1084.3" y="346.7" width="94.7" height="248.3" rx="8" fill="#00838f"/>
+<text x="1131.7" y="334.7" text-anchor="middle" font-family="Arial,sans-serif" font-size="21" font-weight="700" fill="#111">45.7%</text>
+<text x="1131.7" y="645" text-anchor="middle" font-family="Arial,sans-serif" font-size="17" fill="#222">Deepgram Nova-3</text>
+<text x="1131.7" y="669" text-anchor="middle" font-family="Arial,sans-serif" font-size="17" fill="#222">Streaming</text>
+<rect x="1247.6" y="332.3" width="94.7" height="262.7" rx="8" fill="#8c6d31"/>
+<text x="1295.0" y="320.3" text-anchor="middle" font-family="Arial,sans-serif" font-size="21" font-weight="700" fill="#111">48.3%</text>
+<text x="1295.0" y="645" text-anchor="middle" font-family="Arial,sans-serif" font-size="17" fill="#222">Google Chirp 3</text>
+<text x="1295.0" y="669" text-anchor="middle" font-family="Arial,sans-serif" font-size="17" fill="#222">Streaming</text>
+<rect x="1411.0" y="247.6" width="94.7" height="347.4" rx="8" fill="#5e3c99"/>
+<text x="1458.3" y="235.6" text-anchor="middle" font-family="Arial,sans-serif" font-size="21" font-weight="700" fill="#111">63.9%</text>
+<text x="1458.3" y="645" text-anchor="middle" font-family="Arial,sans-serif" font-size="17" fill="#222">Google Gemini 3.5</text>
+<text x="1458.3" y="669" text-anchor="middle" font-family="Arial,sans-serif" font-size="17" fill="#222">Transcribe Live</text></svg>

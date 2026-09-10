@@ -1,0 +1,55 @@
+system_id,system,trial,condition,samples,reference_words,errors,wer_pct
+a5sv2,A5Sv2,1,overall,1250,32928,6471,19.651968
+a5sv2,A5Sv2,1,far_field,250,5608,324,5.777461
+a5sv2,A5Sv2,1,far_field_noise,250,9675,2879,29.757106
+a5sv2,A5Sv2,1,noise,250,7135,1554,21.779958
+a5sv2,A5Sv2,1,obstructed_noise,250,5462,1258,23.031856
+a5sv2,A5Sv2,1,recording_noise,250,5048,456,9.033281
+elevenlabs_scribe_v2_realtime,ElevenLabs Scribe v2 Realtime,1,overall,1250,32928,7456,22.643343
+elevenlabs_scribe_v2_realtime,ElevenLabs Scribe v2 Realtime,1,far_field,250,5608,279,4.975036
+elevenlabs_scribe_v2_realtime,ElevenLabs Scribe v2 Realtime,1,far_field_noise,250,9675,3118,32.227390
+elevenlabs_scribe_v2_realtime,ElevenLabs Scribe v2 Realtime,1,noise,250,7135,1957,27.428171
+elevenlabs_scribe_v2_realtime,ElevenLabs Scribe v2 Realtime,1,obstructed_noise,250,5462,1585,29.018674
+elevenlabs_scribe_v2_realtime,ElevenLabs Scribe v2 Realtime,1,recording_noise,250,5048,517,10.241680
+meta_muse_transcribe,Meta Muse Transcribe,1,overall,1250,32928,8356,25.376579
+meta_muse_transcribe,Meta Muse Transcribe,1,far_field,250,5608,311,5.545649
+meta_muse_transcribe,Meta Muse Transcribe,1,far_field_noise,250,9675,3881,40.113695
+meta_muse_transcribe,Meta Muse Transcribe,1,noise,250,7135,2083,29.194114
+meta_muse_transcribe,Meta Muse Transcribe,1,obstructed_noise,250,5462,1569,28.725741
+meta_muse_transcribe,Meta Muse Transcribe,1,recording_noise,250,5048,512,10.142631
+assemblyai_universal_3_5_pro_realtime,AssemblyAI Universal-3.5 Pro Realtime,1,overall,1250,32928,6340,19.254130
+assemblyai_universal_3_5_pro_realtime,AssemblyAI Universal-3.5 Pro Realtime,1,far_field,250,5608,260,4.636234
+assemblyai_universal_3_5_pro_realtime,AssemblyAI Universal-3.5 Pro Realtime,1,far_field_noise,250,9675,3260,33.695090
+assemblyai_universal_3_5_pro_realtime,AssemblyAI Universal-3.5 Pro Realtime,1,noise,250,7135,1475,20.672740
+assemblyai_universal_3_5_pro_realtime,AssemblyAI Universal-3.5 Pro Realtime,1,obstructed_noise,250,5462,1057,19.351886
+assemblyai_universal_3_5_pro_realtime,AssemblyAI Universal-3.5 Pro Realtime,1,recording_noise,250,5048,288,5.705230
+openai_gpt_live_transcribe,OpenAI GPT Live Transcribe,1,overall,1250,32928,9158,27.812196
+openai_gpt_live_transcribe,OpenAI GPT Live Transcribe,1,far_field,250,5608,302,5.385164
+openai_gpt_live_transcribe,OpenAI GPT Live Transcribe,1,far_field_noise,250,9675,4169,43.090439
+openai_gpt_live_transcribe,OpenAI GPT Live Transcribe,1,noise,250,7135,2438,34.169587
+openai_gpt_live_transcribe,OpenAI GPT Live Transcribe,1,obstructed_noise,250,5462,1624,29.732699
+openai_gpt_live_transcribe,OpenAI GPT Live Transcribe,1,recording_noise,250,5048,625,12.381141
+xai_grok_speech_to_text_streaming,xAI Grok Speech-to-Text Streaming,1,overall,1250,32928,8683,26.369655
+xai_grok_speech_to_text_streaming,xAI Grok Speech-to-Text Streaming,1,far_field,250,5608,341,6.080599
+xai_grok_speech_to_text_streaming,xAI Grok Speech-to-Text Streaming,1,far_field_noise,250,9675,3573,36.930233
+xai_grok_speech_to_text_streaming,xAI Grok Speech-to-Text Streaming,1,noise,250,7135,2271,31.829012
+xai_grok_speech_to_text_streaming,xAI Grok Speech-to-Text Streaming,1,obstructed_noise,250,5462,1467,26.858294
+xai_grok_speech_to_text_streaming,xAI Grok Speech-to-Text Streaming,1,recording_noise,250,5048,1031,20.423930
+deepgram_nova_3_streaming,Deepgram Nova-3 Streaming,1,overall,1250,32928,13322,40.457969
+deepgram_nova_3_streaming,Deepgram Nova-3 Streaming,1,far_field,250,5608,421,7.507133
+deepgram_nova_3_streaming,Deepgram Nova-3 Streaming,1,far_field_noise,250,9675,6373,65.870801
+deepgram_nova_3_streaming,Deepgram Nova-3 Streaming,1,noise,250,7135,3178,44.540995
+deepgram_nova_3_streaming,Deepgram Nova-3 Streaming,1,obstructed_noise,250,5462,2397,43.885024
+deepgram_nova_3_streaming,Deepgram Nova-3 Streaming,1,recording_noise,250,5048,953,18.878764
+google_chirp_3_streaming,Google Chirp 3 Streaming,1,overall,1250,32928,11418,34.675656
+google_chirp_3_streaming,Google Chirp 3 Streaming,1,far_field,250,5608,440,7.845934
+google_chirp_3_streaming,Google Chirp 3 Streaming,1,far_field_noise,250,9675,5194,53.684755
+google_chirp_3_streaming,Google Chirp 3 Streaming,1,noise,250,7135,2757,38.640505
+google_chirp_3_streaming,Google Chirp 3 Streaming,1,obstructed_noise,250,5462,2202,40.314903
+google_chirp_3_streaming,Google Chirp 3 Streaming,1,recording_noise,250,5048,825,16.343106
+google_gemini_3_5_transcribe_live,Google Gemini 3.5 Transcribe Live,1,overall,1250,32928,11630,35.319485
+google_gemini_3_5_transcribe_live,Google Gemini 3.5 Transcribe Live,1,far_field,250,5608,871,15.531384
+google_gemini_3_5_transcribe_live,Google Gemini 3.5 Transcribe Live,1,far_field_noise,250,9675,5011,51.793282
+google_gemini_3_5_transcribe_live,Google Gemini 3.5 Transcribe Live,1,noise,250,7135,2705,37.911703
+google_gemini_3_5_transcribe_live,Google Gemini 3.5 Transcribe Live,1,obstructed_noise,250,5462,2324,42.548517
+google_gemini_3_5_transcribe_live,Google Gemini 3.5 Transcribe Live,1,recording_noise,250,5048,719,14.243265

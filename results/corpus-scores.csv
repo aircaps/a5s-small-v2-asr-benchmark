@@ -1,0 +1,37 @@
+system_id,system,trial,corpus,samples,hits,substitutions,deletions,insertions,reference_words,errors,wer_pct
+a5sv2,A5Sv2,1,Mega-ASR,1250,26830,3743,2355,373,32928,6471,19.651968
+a5sv2,A5Sv2,1,AMI,7,26842,2574,3512,603,32928,6689,20.314018
+a5sv2,A5Sv2,1,DiPCo,6,23528,5020,5131,1086,33679,11237,33.365005
+a5sv2,A5Sv2,1,NOTSOFAR,22,23424,3096,6972,565,33492,10633,31.747880
+elevenlabs_scribe_v2_realtime,ElevenLabs Scribe v2 Realtime,1,Mega-ASR,1250,26270,4882,1776,798,32928,7456,22.643343
+elevenlabs_scribe_v2_realtime,ElevenLabs Scribe v2 Realtime,1,AMI,7,27516,2588,2824,1309,32928,6721,20.411200
+elevenlabs_scribe_v2_realtime,ElevenLabs Scribe v2 Realtime,1,DiPCo,6,24426,4619,4634,1425,33679,10678,31.705217
+elevenlabs_scribe_v2_realtime,ElevenLabs Scribe v2 Realtime,1,NOTSOFAR,22,23816,2979,6697,977,33492,10653,31.807596
+meta_muse_transcribe,Meta Muse Transcribe,1,Mega-ASR,1250,24785,3036,5107,213,32928,8356,25.376579
+meta_muse_transcribe,Meta Muse Transcribe,1,AMI,7,24703,1395,6830,356,32928,8581,26.059888
+meta_muse_transcribe,Meta Muse Transcribe,1,DiPCo,6,23122,2350,8207,460,33679,11017,32.711779
+meta_muse_transcribe,Meta Muse Transcribe,1,NOTSOFAR,22,21601,1380,10511,184,33492,12075,36.053386
+assemblyai_universal_3_5_pro_realtime,AssemblyAI Universal-3.5 Pro Realtime,1,Mega-ASR,1250,26958,2640,3330,370,32928,6340,19.254130
+assemblyai_universal_3_5_pro_realtime,AssemblyAI Universal-3.5 Pro Realtime,1,AMI,7,23506,2086,7336,401,32928,9823,29.831754
+assemblyai_universal_3_5_pro_realtime,AssemblyAI Universal-3.5 Pro Realtime,1,DiPCo,6,22019,3001,8659,669,33679,12329,36.607381
+assemblyai_universal_3_5_pro_realtime,AssemblyAI Universal-3.5 Pro Realtime,1,NOTSOFAR,22,21634,1935,9923,276,33492,12134,36.229547
+openai_gpt_live_transcribe,OpenAI GPT Live Transcribe,1,Mega-ASR,1250,24008,4217,4703,238,32928,9158,27.812196
+openai_gpt_live_transcribe,OpenAI GPT Live Transcribe,1,AMI,7,23344,1758,7826,347,32928,9931,30.159742
+openai_gpt_live_transcribe,OpenAI GPT Live Transcribe,1,DiPCo,6,20654,2698,10327,400,33679,13425,39.861635
+openai_gpt_live_transcribe,OpenAI GPT Live Transcribe,1,NOTSOFAR,22,19981,1749,11762,169,33492,13680,40.845575
+xai_grok_speech_to_text_streaming,xAI Grok Speech-to-Text Streaming,1,Mega-ASR,1250,24591,3796,4541,346,32928,8683,26.369655
+xai_grok_speech_to_text_streaming,xAI Grok Speech-to-Text Streaming,1,AMI,7,20566,2361,10001,231,32928,12593,38.244048
+xai_grok_speech_to_text_streaming,xAI Grok Speech-to-Text Streaming,1,DiPCo,6,12138,2870,18671,276,33679,21817,64.779239
+xai_grok_speech_to_text_streaming,xAI Grok Speech-to-Text Streaming,1,NOTSOFAR,22,21534,2829,9129,753,33492,12711,37.952347
+deepgram_nova_3_streaming,Deepgram Nova-3 Streaming,1,Mega-ASR,1250,19925,2617,10386,319,32928,13322,40.457969
+deepgram_nova_3_streaming,Deepgram Nova-3 Streaming,1,AMI,7,21336,2538,9054,244,32928,11836,35.945092
+deepgram_nova_3_streaming,Deepgram Nova-3 Streaming,1,DiPCo,6,10970,2073,20636,256,33679,22965,68.187892
+deepgram_nova_3_streaming,Deepgram Nova-3 Streaming,1,NOTSOFAR,22,21114,2856,9522,243,33492,12621,37.683626
+google_chirp_3_streaming,Google Chirp 3 Streaming,1,Mega-ASR,1250,22722,3448,6758,1212,32928,11418,34.675656
+google_chirp_3_streaming,Google Chirp 3 Streaming,1,AMI,7,22388,2029,8511,632,32928,11172,33.928571
+google_chirp_3_streaming,Google Chirp 3 Streaming,1,DiPCo,6,7195,1254,25230,185,33679,26669,79.185843
+google_chirp_3_streaming,Google Chirp 3 Streaming,1,NOTSOFAR,22,18801,2348,12343,330,33492,15021,44.849516
+google_gemini_3_5_transcribe_live,Google Gemini 3.5 Transcribe Live,1,Mega-ASR,1250,21607,2923,8398,309,32928,11630,35.319485
+google_gemini_3_5_transcribe_live,Google Gemini 3.5 Transcribe Live,1,AMI,7,13229,1112,18587,111,32928,19810,60.161565
+google_gemini_3_5_transcribe_live,Google Gemini 3.5 Transcribe Live,1,DiPCo,6,1260,211,32208,7,33679,32426,96.279581
+google_gemini_3_5_transcribe_live,Google Gemini 3.5 Transcribe Live,1,NOTSOFAR,22,12512,1265,19715,142,33492,21122,63.065807

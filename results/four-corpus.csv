@@ -1,0 +1,10 @@
+system_id,system,trial,mega_asr_wer_pct,ami_wer_pct,dipco_wer_pct,notsofar_wer_pct,macro_wer_pct,pooled_wer_pct,reference_words,coverage
+a5sv2,A5Sv2,1,19.651968,20.314018,33.365005,31.747880,26.269718,26.333000,133027,1285/1285
+elevenlabs_scribe_v2_realtime,ElevenLabs Scribe v2 Realtime,1,22.643343,20.411200,31.705217,31.807596,26.641839,26.692326,133027,1285/1285
+meta_muse_transcribe,Meta Muse Transcribe,1,25.376579,26.059888,32.711779,36.053386,30.050408,30.090884,133027,1285/1285
+assemblyai_universal_3_5_pro_realtime,AssemblyAI Universal-3.5 Pro Realtime,1,19.254130,29.831754,36.607381,36.229547,30.480703,30.539665,133027,1285/1285
+openai_gpt_live_transcribe,OpenAI GPT Live Transcribe,1,27.812196,30.159742,39.861635,40.845575,34.669787,34.725281,133027,1285/1285
+xai_grok_speech_to_text_streaming,xAI Grok Speech-to-Text Streaming,1,26.369655,38.244048,64.779239,37.952347,41.836322,41.949379,133027,1285/1285
+deepgram_nova_3_streaming,Deepgram Nova-3 Streaming,1,40.457969,35.945092,68.187892,37.683626,45.568645,45.662911,133027,1285/1285
+google_chirp_3_streaming,Google Chirp 3 Streaming,1,34.675656,33.928571,79.185843,44.849516,48.159897,48.321018,133027,1285/1285
+google_gemini_3_5_transcribe_live,Google Gemini 3.5 Transcribe Live,1,35.319485,60.161565,96.279581,63.065807,63.706609,63.887782,133027,1285/1285

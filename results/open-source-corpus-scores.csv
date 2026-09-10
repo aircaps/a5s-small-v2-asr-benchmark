@@ -1,0 +1,21 @@
+system_id,system,trial,corpus,samples,hits,substitutions,deletions,insertions,reference_words,errors,wer_pct
+a5sv2,A5Sv2,1,Mega-ASR,1250,26830,3743,2355,373,32928,6471,19.651968
+a5sv2,A5Sv2,1,AMI,7,26842,2574,3512,603,32928,6689,20.314018
+a5sv2,A5Sv2,1,DiPCo,6,23528,5020,5131,1086,33679,11237,33.365005
+a5sv2,A5Sv2,1,NOTSOFAR,22,23424,3096,6972,565,33492,10633,31.747880
+nvidia_nemotron_3_asr_streaming_0_6b,NVIDIA Nemotron 3 ASR Streaming 0.6B,1,Mega-ASR,1250,25188,3938,3802,324,32928,8064,24.489796
+nvidia_nemotron_3_asr_streaming_0_6b,NVIDIA Nemotron 3 ASR Streaming 0.6B,1,AMI,7,22338,1882,8708,381,32928,10971,33.318149
+nvidia_nemotron_3_asr_streaming_0_6b,NVIDIA Nemotron 3 ASR Streaming 0.6B,1,DiPCo,6,13227,2516,17936,333,33679,20785,61.715015
+nvidia_nemotron_3_asr_streaming_0_6b,NVIDIA Nemotron 3 ASR Streaming 0.6B,1,NOTSOFAR,22,18082,1639,13771,189,33492,15599,46.575302
+whisper_large_v3_ufal_streaming,Whisper Large V3 (UFAL Whisper-Streaming),1,Mega-ASR,1250,25888,5363,1677,2199,32928,9239,28.058188
+whisper_large_v3_ufal_streaming,Whisper Large V3 (UFAL Whisper-Streaming),1,AMI,7,21416,4044,7468,6883,32928,18395,55.864310
+whisper_large_v3_ufal_streaming,Whisper Large V3 (UFAL Whisper-Streaming),1,DiPCo,6,16043,9665,7971,7856,33679,25492,75.691083
+whisper_large_v3_ufal_streaming,Whisper Large V3 (UFAL Whisper-Streaming),1,NOTSOFAR,22,20095,2543,10854,686,33492,14083,42.048847
+mistral_voxtral_mini_transcribe_realtime_2602,Mistral Voxtral Mini Transcribe Realtime 2602,1,Mega-ASR,1250,22605,2927,7396,394,32928,10717,32.546769
+mistral_voxtral_mini_transcribe_realtime_2602,Mistral Voxtral Mini Transcribe Realtime 2602,1,AMI,7,17044,1222,14662,156,32928,16040,48.712342
+mistral_voxtral_mini_transcribe_realtime_2602,Mistral Voxtral Mini Transcribe Realtime 2602,1,DiPCo,6,8424,1090,24165,180,33679,25435,75.521839
+mistral_voxtral_mini_transcribe_realtime_2602,Mistral Voxtral Mini Transcribe Realtime 2602,1,NOTSOFAR,22,18578,1818,13096,258,33492,15172,45.300370
+kyutai_stt_2_6b_en,Kyutai STT 2.6B English,1,Mega-ASR,1250,23225,7770,1933,1221,32928,10924,33.175413
+kyutai_stt_2_6b_en,Kyutai STT 2.6B English,1,AMI,7,20673,3701,8554,434,32928,12689,38.535593
+kyutai_stt_2_6b_en,Kyutai STT 2.6B English,1,DiPCo,6,10339,5662,17678,356,33679,23696,70.358384
+kyutai_stt_2_6b_en,Kyutai STT 2.6B English,1,NOTSOFAR,22,12457,4275,16760,184,33492,21219,63.355428
