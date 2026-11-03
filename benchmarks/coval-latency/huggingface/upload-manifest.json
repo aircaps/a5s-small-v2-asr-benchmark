@@ -1,5 +1,5 @@
 {
-  "dataset_repository": "AirCaps/a5sv2-asr-benchmark-dataset",
+  "dataset_repository": "AirCaps/a5s-small-v2-asr-benchmark-dataset",
   "files": [
     {
       "bytes": 8241,

@@ -70,7 +70,7 @@ def test_open_source_table_requires_and_formats_all_systems(tmp_path, monkeypatc
         writer.writerow(
             {
                 "system_id": "a5sv2",
-                "system": "A5Sv2",
+                "system": "A5S Small V2",
                 "trial": 1,
                 "mega_asr_wer_pct": 1,
                 "ami_wer_pct": 2,
@@ -120,4 +120,4 @@ def test_open_source_table_requires_and_formats_all_systems(tmp_path, monkeypatc
     table = markdown(rows)
     assert len(rows) == 5
     assert table.count("\n") == 6
-    assert "A5Sv2" in table
+    assert "A5S Small V2" in table

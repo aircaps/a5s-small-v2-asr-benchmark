@@ -12,7 +12,7 @@ from pathlib import Path
 from a5sv2_eval.score import corpus_counts, load_rows
 
 BASE_SYSTEMS = {
-    "a5sv2": "A5Sv2",
+    "a5sv2": "A5S Small V2",
     "assemblyai_universal_3_5_pro_realtime": "AssemblyAI Universal-3.5 Pro Realtime",
     "deepgram_nova_3_streaming": "Deepgram Nova-3 Streaming",
     "elevenlabs_scribe_v2_realtime": "ElevenLabs Scribe v2 Realtime",
@@ -356,7 +356,7 @@ def main() -> None:
         for row in summary
     ]
     (args.output / "README.md").write_text(
-        "# A5Sv2 four-corpus benchmark results\n\n"
+        "# A5S Small V2 four-corpus benchmark results\n\n"
         "WER (%), lower is better. Every value is from saved trial 1; no multi-trial averaging is used. References and raw predictions are included for independent rescoring.\n\n"
         + "\n".join(table)
         + "\n\nVerify files with `sha256sum -c SHA256SUMS`. Audio is reconstructed from pinned public sources using the linked evaluation repository.\n",

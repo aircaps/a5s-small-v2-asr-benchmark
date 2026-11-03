@@ -1,6 +1,6 @@
-## A5Sv2 Coval-compatible device latency v1
+## A5S Small V2 Coval-compatible device latency v1
 
-This bundle contains complete 947-item A5Sv2 latency trials on a MacBook Air (13-inch, M4, 2025)
+This bundle contains complete 947-item A5S Small V2 latency trials on a MacBook Air (13-inch, M4, 2025)
 and a physical iPhone 16 (6.1-inch, A18, 2024). The Mac is model identifier `Mac16,12`, with a
 10-core CPU, 8-core GPU, 16-core Neural Engine, 16 GB unified memory, and 256 GB SSD. The iPhone is
 model identifier `iPhone17,3`, hardware model `D47AP`, with a 6-core CPU, 5-core GPU, 16-core

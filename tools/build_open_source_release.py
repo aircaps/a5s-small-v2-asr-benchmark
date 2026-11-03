@@ -11,7 +11,7 @@ from a5sv2_eval.score import corpus_counts, load_rows
 
 
 SYSTEMS = {
-    "a5sv2": "A5Sv2",
+    "a5sv2": "A5S Small V2",
     "nvidia_nemotron_3_asr_streaming_0_6b": "NVIDIA Nemotron 3 ASR Streaming 0.6B",
     "mistral_voxtral_mini_transcribe_realtime_2602": (
         "Mistral Voxtral Mini Transcribe Realtime 2602"
@@ -197,7 +197,7 @@ def markdown(rows: list[dict]) -> str:
 
 def main() -> None:
     parser = argparse.ArgumentParser(
-        description="Build the public A5Sv2/open-source result bundle from completed runs"
+        description="Build the public A5S Small V2/open-source result bundle from completed runs"
     )
     parser.add_argument("--base-release", type=Path, required=True)
     parser.add_argument("--api-mega-dir", type=Path, required=True)
@@ -283,7 +283,7 @@ def main() -> None:
         json.dumps(metadata, indent=2) + "\n", encoding="utf-8"
     )
     (args.output / "README.md").write_text(
-        "# A5Sv2 open-source four-corpus benchmark results\n\n"
+        "# A5S Small V2 open-source four-corpus benchmark results\n\n"
         "WER (%), lower is better. Every value is saved trial 1 with complete "
         "1,285/1,285 coverage; no multi-trial averaging is used.\n\n"
         + markdown(summaries)

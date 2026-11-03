@@ -152,7 +152,7 @@ because in our experiments the standard test set was not acoustically challengin
 clearly discriminate among robust ASR systems. This is a derived evaluation set; it should not be
 mixed into training when reporting results on it.
 
-A5Sv2 was not trained or fine-tuned on the 1,250 selected recordings or transcripts, and they were
+A5S Small V2 was not trained or fine-tuned on the 1,250 selected recordings or transcripts, and they were
 not used for checkpoint selection, hyperparameter tuning, prompt tuning, or any other
 model-selection decision. Equivalent information is unavailable for third-party systems. This
 exact-item statement does not establish distribution-level independence from the public source

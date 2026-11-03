@@ -1,5 +1,5 @@
 [Unit]
-Description=A5Sv2 API benchmark S3 backup and completion validator
+Description=A5S Small V2 API benchmark S3 backup and completion validator
 After=network-online.target a5sv2-together.service a5sv2-mistral.service
 Wants=network-online.target
 

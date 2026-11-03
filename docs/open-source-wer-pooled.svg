@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1600" height="760" viewBox="0 0 1600 760" role="img" aria-labelledby="title desc">
-<title id="title">A5Sv2 vs Open-Source ASR — Pooled WER</title><desc id="desc">Pooled WER ranked from lowest to highest for 5 streaming ASR systems.</desc>
+<title id="title">A5S Small V2 vs Open-Source ASR — Pooled WER</title><desc id="desc">Pooled WER ranked from lowest to highest for 5 streaming ASR systems.</desc>
 <rect width="100%" height="100%" fill="#ffffff"/>
-<text x="60" y="65" font-family="Georgia,serif" font-size="38" fill="#151515">A5Sv2 vs Open-Source ASR — Pooled WER</text>
+<text x="60" y="65" font-family="Georgia,serif" font-size="38" fill="#151515">A5S Small V2 vs Open-Source ASR — Pooled WER</text>
 <text x="60" y="103" font-family="Arial,sans-serif" font-size="20" fill="#666666">% of words transcribed incorrectly · lower is better · 133,027 reference words</text>
 <line x1="70" x2="1540" y1="595.0" y2="595.0" stroke="#d0d0d0" stroke-dasharray="4 8"/>
 <text x="55" y="602.0" text-anchor="end" font-family="Arial,sans-serif" font-size="17" fill="#777">0</text>
@@ -21,7 +21,7 @@
 <text x="55" y="167.0" text-anchor="end" font-family="Arial,sans-serif" font-size="17" fill="#777">70</text>
 <rect x="148.0" y="431.4" width="138.0" height="163.6" rx="8" fill="#1b9e77"/>
 <text x="217.0" y="419.4" text-anchor="middle" font-family="Arial,sans-serif" font-size="21" font-weight="700" fill="#111">26.3%</text>
-<text x="217.0" y="645" text-anchor="middle" font-family="Arial,sans-serif" font-size="17" fill="#222">A5Sv2</text>
+<text x="217.0" y="645" text-anchor="middle" font-family="Arial,sans-serif" font-size="17" fill="#222">A5S Small V2</text>
 <rect x="442.0" y="336.1" width="138.0" height="258.9" rx="8" fill="#2d6cdf"/>
 <text x="511.0" y="324.1" text-anchor="middle" font-family="Arial,sans-serif" font-size="21" font-weight="700" fill="#111">41.7%</text>
 <text x="511.0" y="645" text-anchor="middle" font-family="Arial,sans-serif" font-size="17" fill="#222">NVIDIA Nemotron 3</text>

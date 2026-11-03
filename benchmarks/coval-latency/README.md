@@ -1,7 +1,7 @@
-# A5Sv2 Coval-compatible device latency benchmark
+# A5S Small V2 Coval-compatible device latency benchmark
 
 This directory publishes the methodology, exact inputs, raw predictions, primitive timings,
-scoring code, integrity checks, and complete Mac and iPhone results for A5Sv2. Model weights and
+scoring code, integrity checks, and complete Mac and iPhone results for A5S Small V2. Model weights and
 inference implementation are private and are not distributed.
 
 The run follows Coval Benchmarks commit
@@ -80,10 +80,10 @@ the primary result.
 
 ### Accuracy
 
-Two WER conventions are included because Coval and the parent A5Sv2 benchmark intentionally use
+Two WER conventions are included because Coval and the parent A5S Small V2 benchmark intentionally use
 different normalizers and aggregations.
 
-| Device | Dataset | Coval mean item WER | A5Sv2-standard corpus WER |
+| Device | Dataset | Coval mean item WER | A5S Small V2-standard corpus WER |
 |---|---|---:|---:|
 | MacBook Air M4 | `stt-v1` | 2.7794% | 2.6012% |
 | MacBook Air M4 | `stt-v3` | 4.2010% | 4.7103% |
@@ -93,7 +93,7 @@ different normalizers and aggregations.
 | iPhone 16 | Combined | 4.1126% item-weighted | 4.5987% pooled |
 
 Coval-compatible WER uses `EnglishTextNormalizer` and averages per-item WER percentages. The
-A5Sv2 repository standard applies its documented NFKC/punctuation normalization and sums corpus
+A5S Small V2 repository standard applies its documented NFKC/punctuation normalization and sums corpus
 edit counts. These values answer different questions and must not be interchanged.
 
 ## Interpretation and limitations

@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1600" height="760" viewBox="0 0 1600 760" role="img" aria-labelledby="title desc">
-<title id="title">A5Sv2 vs Proprietary Cloud ASR — Pooled WER</title><desc id="desc">Pooled WER ranked from lowest to highest for 9 streaming ASR systems.</desc>
+<title id="title">A5S Small V2 vs Proprietary Cloud ASR — Pooled WER</title><desc id="desc">Pooled WER ranked from lowest to highest for 9 streaming ASR systems.</desc>
 <rect width="100%" height="100%" fill="#ffffff"/>
-<text x="60" y="65" font-family="Georgia,serif" font-size="38" fill="#151515">A5Sv2 vs Proprietary Cloud ASR — Pooled WER</text>
+<text x="60" y="65" font-family="Georgia,serif" font-size="38" fill="#151515">A5S Small V2 vs Proprietary Cloud ASR — Pooled WER</text>
 <text x="60" y="103" font-family="Arial,sans-serif" font-size="20" fill="#666666">% of words transcribed incorrectly · lower is better · 133,027 reference words</text>
 <line x1="70" x2="1540" y1="595.0" y2="595.0" stroke="#d0d0d0" stroke-dasharray="4 8"/>
 <text x="55" y="602.0" text-anchor="end" font-family="Arial,sans-serif" font-size="17" fill="#777">0</text>
@@ -23,7 +23,7 @@
 <text x="55" y="167.0" text-anchor="end" font-family="Arial,sans-serif" font-size="17" fill="#777">80</text>
 <rect x="104.3" y="451.8" width="94.7" height="143.2" rx="8" fill="#1b9e77"/>
 <text x="151.7" y="439.8" text-anchor="middle" font-family="Arial,sans-serif" font-size="21" font-weight="700" fill="#111">26.3%</text>
-<text x="151.7" y="645" text-anchor="middle" font-family="Arial,sans-serif" font-size="17" fill="#222">A5Sv2</text>
+<text x="151.7" y="645" text-anchor="middle" font-family="Arial,sans-serif" font-size="17" fill="#222">A5S Small V2</text>
 <rect x="267.6" y="449.9" width="94.7" height="145.1" rx="8" fill="#2d6cdf"/>
 <text x="315.0" y="437.9" text-anchor="middle" font-family="Arial,sans-serif" font-size="21" font-weight="700" fill="#111">26.7%</text>
 <text x="315.0" y="645" text-anchor="middle" font-family="Arial,sans-serif" font-size="17" fill="#222">ElevenLabs Scribe v2</text>

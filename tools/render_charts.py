@@ -7,7 +7,8 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 LABELS = {
     "ElevenLabs Scribe v2 Realtime": ("ElevenLabs Scribe v2", "Realtime"),
-    "A5Sv2": ("A5Sv2", ""),
+    "A5S Small V2": ("A5S Small V2", ""),
+    "A5Sv2": ("A5S Small V2", ""),  # system label in the v1 result files
     "AssemblyAI Universal-3.5 Pro Realtime": ("AssemblyAI", "Universal-3.5 Pro Realtime"),
     "OpenAI GPT Live Transcribe": ("OpenAI GPT Live", "Transcribe"),
     "Deepgram Nova-3 Streaming": ("Deepgram Nova-3", "Streaming"),
@@ -168,16 +169,16 @@ def by_corpus(rows: list[dict], title: str) -> str:
 if __name__ == "__main__":
     cloud_rows = load_rows(ROOT / "results/four-corpus.csv")
     (ROOT / "docs/wer-pooled.svg").write_text(
-        pooled(cloud_rows, "A5Sv2 vs Proprietary Cloud ASR — Pooled WER"), encoding="utf-8"
+        pooled(cloud_rows, "A5S Small V2 vs Proprietary Cloud ASR — Pooled WER"), encoding="utf-8"
     )
     (ROOT / "docs/wer-by-corpus.svg").write_text(
-        by_corpus(cloud_rows, "A5Sv2 vs Proprietary Cloud ASR — WER by Corpus"),
+        by_corpus(cloud_rows, "A5S Small V2 vs Proprietary Cloud ASR — WER by Corpus"),
         encoding="utf-8",
     )
     open_rows = load_rows(ROOT / "results/open-source-four-corpus.csv")
     (ROOT / "docs/open-source-wer-pooled.svg").write_text(
-        pooled(open_rows, "A5Sv2 vs Open-Source ASR — Pooled WER"), encoding="utf-8"
+        pooled(open_rows, "A5S Small V2 vs Open-Source ASR — Pooled WER"), encoding="utf-8"
     )
     (ROOT / "docs/open-source-wer-by-corpus.svg").write_text(
-        by_corpus(open_rows, "A5Sv2 vs Open-Source ASR — WER by Corpus"), encoding="utf-8"
+        by_corpus(open_rows, "A5S Small V2 vs Open-Source ASR — WER by Corpus"), encoding="utf-8"
     )

@@ -216,7 +216,7 @@ def main() -> None:
     metadata = {
         "schema_version": "1.0",
         "result_id": logical_run_id,
-        "system": "A5Sv2",
+        "system": "A5S Small V2",
         "variant": public_variant,
         "coverage": "947/947",
         "logical_trials": 1,

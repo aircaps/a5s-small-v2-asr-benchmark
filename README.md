@@ -1,12 +1,12 @@
-# A5Sv2 ASR benchmark
+# A5S Small V2 ASR benchmark
 
 Reproducible streaming ASR evaluation on four public English corpora. Each corpus contributes
 about 33k normalized reference words. The primary aggregate is the unweighted mean of the four
 corpus WERs; pooled WER is also reported. All values use one saved transcript run per system and
-corpus; no multi-run averaging is used. A5Sv2 uses the 18,000-step checkpoint; all results use
+corpus; no multi-run averaging is used. A5S Small V2 uses the 18,000-step checkpoint; all results use
 the frozen word-onset v2 references.
 
-**Dataset:** [`AirCaps/a5sv2-asr-benchmark-dataset`](https://huggingface.co/datasets/AirCaps/a5sv2-asr-benchmark-dataset)
+**Dataset:** [`AirCaps/a5s-small-v2-asr-benchmark-dataset`](https://huggingface.co/datasets/AirCaps/a5s-small-v2-asr-benchmark-dataset)
 
 | Corpus | Fixed selection | Audio | Reference words |
 |---|---|---|---:|
@@ -25,7 +25,7 @@ Meeting recordings are streamed continuously, without segmentation.
 
 | System | Mega-ASR | AMI | DiPCo | NOTSOFAR | Macro | Pooled |
 |---|---:|---:|---:|---:|---:|---:|
-| A5Sv2 | 19.651968 | **20.314018** | 33.365005 | **31.747880** | **26.269718** | **26.333000** |
+| A5S Small V2 | 19.651968 | **20.314018** | 33.365005 | **31.747880** | **26.269718** | **26.333000** |
 | ElevenLabs Scribe v2 Realtime | 22.643343 | 20.411200 | **31.705217** | 31.807596 | 26.641839 | 26.692326 |
 | Meta Muse Transcribe | 25.376579 | 26.059888 | 32.711779 | 36.053386 | 30.050408 | 30.090884 |
 | AssemblyAI Universal-3.5 Pro Realtime | **19.254130** | 29.831754 | 36.607381 | 36.229547 | 30.480703 | 30.539665 |
@@ -40,7 +40,7 @@ Meeting recordings are streamed continuously, without segmentation.
 ![WER by corpus and system](docs/wer-by-corpus.svg)
 
 Machine-readable scores are in [`results/`](results). The companion dataset publishes the exact
-references, saved predictions, run metadata, and SHA-256 checksums. A5Sv2 inference code is not
+references, saved predictions, run metadata, and SHA-256 checksums. A5S Small V2 inference code is not
 published; its predictions are included so every score can be reproduced independently. This
 release reports point estimates only.
 
@@ -48,7 +48,7 @@ release reports point estimates only.
 
 | System | Mega-ASR | AMI | DiPCo | NOTSOFAR | Macro | Pooled |
 |---|---:|---:|---:|---:|---:|---:|
-| A5Sv2 | **19.651968** | **20.314018** | **33.365005** | **31.747880** | **26.269718** | **26.333000** |
+| A5S Small V2 | **19.651968** | **20.314018** | **33.365005** | **31.747880** | **26.269718** | **26.333000** |
 | NVIDIA Nemotron 3 ASR Streaming 0.6B | 24.489796 | 33.318149 | 61.715015 | 46.575302 | 41.524565 | 41.659964 |
 | Whisper Large V3 (UFAL Whisper-Streaming) | 28.058188 | 55.864310 | 75.691083 | 42.048847 | 50.415607 | 50.522826 |
 | Mistral Voxtral Mini Transcribe Realtime 2602 | 32.546769 | 48.712342 | 75.521839 | 45.300370 | 50.520330 | 50.639344 |
@@ -98,7 +98,7 @@ experiments the standard test set was not acoustically challenging enough to cle
 among robust ASR systems. This derived evaluation set must not be mixed into training when
 reporting results on it.
 
-A5Sv2 was not trained, fine-tuned, checkpoint-selected, hyperparameter-tuned, prompt-tuned, or
+A5S Small V2 was not trained, fine-tuned, checkpoint-selected, hyperparameter-tuned, prompt-tuned, or
 otherwise optimized using these exact 1,250 recordings or transcripts. We cannot determine
 whether third-party systems used these items or overlapping upstream data. This exact-item
 statement is not a claim of distribution-level independence; Mega-ASR should be interpreted as a

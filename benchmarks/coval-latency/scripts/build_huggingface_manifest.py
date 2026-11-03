@@ -49,7 +49,7 @@ def main() -> None:
         )
     payload = {
         "schema_version": "1.0",
-        "dataset_repository": "AirCaps/a5sv2-asr-benchmark-dataset",
+        "dataset_repository": "AirCaps/a5s-small-v2-asr-benchmark-dataset",
         "target_prefix": TARGET_PREFIX,
         "files": files,
     }

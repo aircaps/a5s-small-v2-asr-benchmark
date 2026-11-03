@@ -8,7 +8,7 @@ from a5sv2_eval.score import score_files
 
 
 OPEN_SOURCE_SYSTEMS = {
-    "a5sv2": "A5Sv2",
+    "a5sv2": "A5S Small V2",
     "nvidia_nemotron_3_asr_streaming_0_6b": "NVIDIA Nemotron 3 ASR Streaming 0.6B",
     "mistral_voxtral_mini_transcribe_realtime_2602": (
         "Mistral Voxtral Mini Transcribe Realtime 2602"

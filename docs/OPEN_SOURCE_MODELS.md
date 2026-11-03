@@ -1,6 +1,6 @@
 # Open-source model evaluation
 
-This comparison evaluates four open-weight ASR models against A5Sv2 on the same fixed 1,285-item,
+This comparison evaluates four open-weight ASR models against A5S Small V2 on the same fixed 1,285-item,
 four-corpus benchmark. A result is publishable only when saved trial 1 has all 1,285 successful
 rows, the pinned references, and the frozen model, decoder, and streaming configuration below.
 
@@ -106,16 +106,16 @@ with `status=ok`.
 `tools/build_open_source_release.py` accepts the existing public four-corpus release, the two
 completed API result directories, and the validated local GPU run directory. It rejects failures,
 duplicate IDs, missing rows, non-trial-1 data, reference/hash mismatches, or any unapproved model.
-It independently recomputes edit counts and WER, then writes only A5Sv2 and the four frozen systems
+It independently recomputes edit counts and WER, then writes only A5S Small V2 and the four frozen systems
 to `results/open-source-four-corpus-v1/` with deterministic gzip files and SHA-256 checksums.
 
 ```bash
 python tools/build_open_source_release.py \
-  --base-release ../a5sv2-asr-benchmark-dataset/results/four-corpus-v1 \
+  --base-release ../a5s-small-v2-asr-benchmark-dataset/results/four-corpus-v1 \
   --api-mega-dir benchmark_data/results \
   --api-meeting-dir benchmark_data/meetings/results \
   --gpu-run-dir /path/to/validated-gpu-run \
-  --output ../a5sv2-asr-benchmark-dataset/results/open-source-four-corpus-v1
+  --output ../a5s-small-v2-asr-benchmark-dataset/results/open-source-four-corpus-v1
 ```
 
 Prediction rows retain the dataset revision actually evaluated. If a historical Mega-ASR

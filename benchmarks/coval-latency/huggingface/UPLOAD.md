@@ -1,6 +1,6 @@
 # Prepared Hugging Face dataset update
 
-Target dataset: `AirCaps/a5sv2-asr-benchmark-dataset`
+Target dataset: `AirCaps/a5s-small-v2-asr-benchmark-dataset`
 
 Target prefix: `results/coval-latency-v1/`
 

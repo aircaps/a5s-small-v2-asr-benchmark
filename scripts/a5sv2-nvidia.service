@@ -1,5 +1,5 @@
 [Unit]
-Description=A5Sv2 NVIDIA Nemotron API benchmark
+Description=A5S Small V2 NVIDIA Nemotron API benchmark
 After=network-online.target
 Wants=network-online.target
 
