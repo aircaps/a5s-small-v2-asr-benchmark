@@ -6,6 +6,8 @@ corpus WERs; pooled WER is also reported. All values use one saved transcript ru
 corpus; no multi-run averaging is used. A5S Small V2 uses the 18,000-step checkpoint; all results use
 the frozen word-onset v2 references.
 
+**Model:** [A5S Small V2 Streaming](https://aircaps.ai/models/a5s-small-v2) · **Report:** [A5S Small V2 research note](https://aircaps.ai/research/a5s-small-v2-streaming-state-of-the-art-streaming-stt-for-noisy-far-field-audio)
+
 **Dataset:** [`AirCaps/a5s-small-v2-asr-benchmark-dataset`](https://huggingface.co/datasets/AirCaps/a5s-small-v2-asr-benchmark-dataset)
 
 | Corpus | Fixed selection | Audio | Reference words |
